@@ -1,0 +1,5 @@
+---
+deployment:
+tasks:
+- export DEPLOYPATH=/home/markprop/repositories/testrepo/
+- /bin/cp * $DEPLOYPATH
